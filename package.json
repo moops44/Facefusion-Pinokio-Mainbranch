@@ -1,0 +1,16 @@
+{
+	"name": "facefusion-pinokio",
+	"description": "Industry leading face manipulation platform",
+	"version": "Latest",
+	"license": "OpenRAIL-S",
+	"devDependencies":
+	{
+		"@isnotdefined/eslint-config": "10.6.0",
+		"eslint": "9.36.0"
+	},
+	"scripts":
+	{
+		"lint": "eslint .",
+		"fix": "npm run lint -- --fix"
+	}
+}
